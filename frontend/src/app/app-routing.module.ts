@@ -3,8 +3,10 @@ import { HomeComponent } from './components/home/home.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { RegisterComponent } from './components/register/register.component';
 
 const routes: Routes = [
+  { path: 'registration', component: RegisterComponent },
   { path: 'login', component: LoginComponent },
   { path: '', component: HomeComponent },
   { path: 'not-found', component: NotFoundComponent },
