@@ -1,0 +1,28 @@
+
+.input-box {
+    width: 170px;
+}
+
+.input-box label {
+    position: relative;
+    top: -20px;
+    transform: translateY(-50%);
+    transition: .5s;
+}
+
+.input-box input:focus~label{
+    top: -35px;
+}
+
+.input-box input{
+    outline: none;
+    border:none;
+    border-bottom: 1px solid;
+}
+
+.container {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

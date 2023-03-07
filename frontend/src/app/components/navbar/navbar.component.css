@@ -37,6 +37,7 @@ li button {
     font-size: 1.1em;
     color: white;
     transition: .5s;
+
 }
 
 li button:hover {
@@ -72,4 +73,5 @@ li a:hover::after {
 
 .nav-right {
     float: right;
+    padding-right: 30px;
 }
