@@ -9,6 +9,10 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { LoginComponent } from './components/login/login.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { RegisterComponent } from './components/register/register.component';
+import { AboutMeComponent } from './components/about-me/about-me.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { FeedBackComponent } from './components/feed-back/feed-back.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +21,11 @@ import { RegisterComponent } from './components/register/register.component';
     HomeComponent,
     NavbarComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    AboutMeComponent,
+    SkillsComponent,
+    ProjectsComponent,
+    FeedBackComponent
   ],
   imports: [
     ReactiveFormsModule,
